@@ -1,9 +1,9 @@
 def starts_with_a_vowel?(word)
-
+"The rain in Spain lies mainly in the plain".scan(/\w+ain/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-
+"unprecedent complications believing in your self".scan(/\w+un+ing/)
 end
 
 def words_five_letters_long(text)
