@@ -3,7 +3,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-"unprecedent complications believing in your self".scan(/\w+un+ing/)
+"unprecedent complications believing in your self understanding".scan(/\w+un+ing/)
 end
 
 def words_five_letters_long(text)
